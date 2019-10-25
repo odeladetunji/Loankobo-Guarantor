@@ -15,4 +15,6 @@ public class Guarantor {
     @Column(name = "id")
     public Long Id;
 
+    @Column(name = "fullname")
+    public String fullname;
 }

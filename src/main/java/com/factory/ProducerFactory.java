@@ -1,7 +1,9 @@
 package com.factory;
 
 public class ProducerFactory {
-    public AbstractFactory getGuarantor(){
+    public static AbstractFactory getGuarantor(){
         return new EntityFactory();
     }
 }
+
+
